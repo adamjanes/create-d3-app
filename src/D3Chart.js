@@ -2,7 +2,7 @@ import * as d3 from 'd3'
 
 const MARGIN = { TOP: 10, BOTTOM: 80, LEFT: 70, RIGHT: 10 }
 const WIDTH = 500 - MARGIN.LEFT - MARGIN.RIGHT;
-const HEIGHT = 300 - MARGIN.TOP - MARGIN.TOP;
+const HEIGHT = 300 - MARGIN.TOP - MARGIN.BOTTOM;
 
 class D3Chart {
 	constructor(element) {
